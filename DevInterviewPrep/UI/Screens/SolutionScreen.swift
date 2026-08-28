@@ -15,7 +15,7 @@ struct SolutionScreen: View {
             switch problemId {
             // Algorithm Sub-views
             case "two_sum":
-                Text("Two Sum Sandbox UI Placement")
+                TwoSumSolution()
             case "reverse_string":
                 Text("Reverse String Sandbox UI Placement")
                 
