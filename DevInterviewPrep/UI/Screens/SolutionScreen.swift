@@ -17,7 +17,7 @@ struct SolutionScreen: View {
             case "two_sum":
                 TwoSumSolution()
             case "reverse_string":
-                Text("Reverse String Sandbox UI Placement")
+                ReverseStringSolution()
                 
             // UIKit / SwiftUI Component Views
             case "custom_button":
