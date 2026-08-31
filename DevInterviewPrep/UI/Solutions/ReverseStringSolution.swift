@@ -88,7 +88,7 @@ struct ReverseStringSolution: View {
                 }
                 .padding()
             }
-            .onChange(of: showSolution) { newValue in
+            .onChange(of: showSolution) { oldValue, newValue in
                 guard newValue else { return }
                 withAnimation {
                     proxy.scrollTo("solution", anchor: .bottom)
