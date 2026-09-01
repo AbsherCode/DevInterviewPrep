@@ -18,6 +18,16 @@ struct SolutionScreen: View {
                 TwoSumSolution()
             case "reverse_string":
                 ReverseStringSolution()
+            case "fizz_buzz":
+                FizzBuzzSolution()
+            case "palindrome_number":
+                ReverseStringSolution()
+            case "merge_two_sorted_lists":
+                TwoSumSolution()
+            case "roman_to_integer":
+                ReverseStringSolution()
+            case "valid_parentheses":
+                TwoSumSolution()
                 
             // UIKit / SwiftUI Component Views
             case "custom_button":
