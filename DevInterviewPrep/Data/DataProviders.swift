@@ -22,7 +22,12 @@ struct ProblemProvider {
 struct ComponentProvider {
     static let components = [
         ComponentExample(id: "custom_button", name: "Interactive Buttons", category: "Inputs", description: "Examples of Filled, Outlined, and Plain buttons."),
-        ComponentExample(id: "custom_card", name: "Complex Cards", category: "Surfaces", description: "Styled custom containers showcasing layout hierarchy.")
+        ComponentExample(id: "custom_card", name: "Complex Cards", category: "Surfaces", description: "Styled custom containers showcasing layout hierarchy."),
+        ComponentExample(id: "custom_stepper", name: "Custom Stepper", category: "Inputs", description: "Styled custom input showcasing incrementing or decrementing a binding to a value using a step value you provide."),
+        ComponentExample(id: "custom_slider", name: "Custom Slider", category: "Inputs", description: "Examples of different styles of sliders, including a custom control for selecting a value from a bounded linear range of values.."),
+        ComponentExample(id: "custom_tabs", name: "Custom Tabs", category: "Navigation", description: "A custom tab bar that can be used to navigate between multiple views."),
+        ComponentExample(id: "custom_toggle", name: "Custom Toggles", category: "Input", description: "Examples of toggles with different styles and custom content that can be used to represent controls that toggles between on and off states."),
+        ComponentExample(id: "custom_picker", name: "Custom Picker", category: "Input", description: "")
     ]
 }
 

@@ -36,6 +36,9 @@ struct SolutionScreen: View {
             case "custom_card":
                 CardExample()
                 
+            case "custom_stepper":
+                CustomStepperDemoView()
+                
             default:
                 Text("Sandbox module configuration target error.")
             }
